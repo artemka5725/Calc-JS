@@ -4,6 +4,7 @@ const  clearButton = document.querySelector('.clear');
 const buttonsAction = document.querySelectorAll('.action');
 const buttonResult = document.querySelector('.equals');
 const buttonPlusMinus = document.querySelector('.plus-minus');
+const buttonPersent = document.querySelector('.persent');
 const arrayKeys =['1','2','3','4','5','6','7','8','9','0','-','+','*','/','.','Enter','Backspace'];
 const operators = ['+', '-', '×', '÷', '*', '/', '.','+/-','%','Math.sqrt'];
 
@@ -46,6 +47,7 @@ buttonsNumber.forEach((button) => {
             resultDisplay.value += button.textContent;
 
         }
+
     });
 });
 
